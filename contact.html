@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="أهلا وسهلا بكم في موقع فندق حسان" />
+  <meta name="keywords" content="فندق حسان,فندق,حسان " />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>موقع فندق حسان</title>
+  
+  
+</head>
+
+<body>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading">
+                <span class="text-primary">تواصل</span> معنا
+            </h1>
+            <p>يرجى تعبئة النموذج للتواصل</p>
+            <form class = "Contact" >
+                <div class="form-group">
+                    <label for="name">الاسم</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة</label>
+                    <textarea name="message" id="message">
+                    </textarea>
+                </div>
+                <button type="submit" class="btn" onclick="myFunction()">إرسال</button>
+            </form>	
+        </div>
+    </section>
+	<script>
+function myFunction() {
+  alert("تم إرسال المعلومات بنجاح");
+}
+</script>
+
+    <div id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box ">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>الموقع</h3>
+                <p>كلية الدراسات التطبيقية وخدمة المجتمع</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>رقم التواصل</h3>
+                <p>0596966667</p>
+            </div>
+            <div class="box ">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>البريد الإلكتروني</h3>
+                <p>438910045@student.ksu.edu.sa</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
