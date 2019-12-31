@@ -1,0 +1,814 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: RTL;
+}
+
+table, th, td {
+  Height:40px;
+  Width:500px;
+  text-align:center;
+}
+th {
+  background-color:#ff9966;
+}
+
+td {
+  background-color:#ffffff;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: Tajawal;
+  line-height: 1.7em;
+  width:100% ;
+  height:91% ;
+  position: absolute;
+
+}
+
+body::-webkit-scrollbar {  
+    display: none;
+  }
+
+iframe{
+
+width:100% ;
+position: absolute;
+height:100% ;
+overflow-x:hidden;
+overflow-y:hidden
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+  
+}
+#NewBody{
+
+	    display: inline-grid;
+		
+}
+
+
+/* Utility classes */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+  font-size: 20px;
+
+}
+
+
+.text-primary {
+  color: coral;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius:50px;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+
+.btn:hover {
+  background: coral;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: coral;
+  color: #333;
+  min-width: min-content;
+}
+
+
+.clr {
+height:100%;
+}
+.Space {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 42px;
+  margin-top:5%;
+}
+
+/* Padding */
+
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
+
+
+/* Navbar styling */
+
+
+
+#logo img {
+    height: 70px;
+    width: auto;
+}
+	
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: Right;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: Left;
+}
+
+#navbar ul li {
+  float: Right;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: coral;
+}
+
+/* frame styling */
+
+
+
+/* Showcase styles */
+
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 800px;
+}
+
+#showcase .showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 2em;
+
+}
+
+
+#showcase .showcase-content h1 {
+  font-size: 70px;
+  line-height: 2em;
+}
+#section1 .section1-img {
+  height: 50px;
+  width: 100%;
+  background: url('../img/section-1.jpg') no-repeat center center fixed;
+  min-height: 100%;
+}
+#home-info {
+  height: 400px;
+}
+
+
+#home-info .info-img {
+  float: Left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: Right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+#home-info2 {
+  height: 400px;
+}
+
+#home-info2 .info-img2 {
+  float: Right;
+  width: 50%;
+  
+  background: url('../img/photo-2.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info2 .info-content2 {
+  float: Left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info2 .info-content2 p {
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+/* Features section */
+
+.box {
+  float: Left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Rooms*/
+
+#features.RoomImag{
+  float: Right;
+  width: 50%;
+  min-height: 100%;
+}
+#features.RoomImag img{
+	
+  display: block;
+  margin: 10px;
+  width: 70%;
+}
+
+.RoomImag img {
+  border-radius: 30PX;
+  max-width: 70%;
+}
+
+/* About Info*/
+
+#about-info .info-right {
+  float: Right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: 10px;
+  width: 70%;
+}
+
+#about-info .info-left {
+  float: Left;
+  width: 50%;
+  min-height: 100%;
+  border-bottom: 10px;
+}
+
+.info-right img {
+  border-radius: 30PX;
+}
+
+#testimonials {
+  height: 1000px;
+  background: url('../img//showcase.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+  display: inline-flex;
+}
+
+#testimonials .testimonial img {
+  float: right;
+  width: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+#testimonials h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* Contact Form */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+  
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: coral;
+}
+
+textarea {
+  height: 200px;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
+}
+
+/* Login Form */
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  min-height: 100%;
+}
+.Loginform {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+    border-radius:50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.Loginform input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Tajawal;
+}
+.Loginform .btn1 {
+  text-transform: uppercase;
+  outline: 0;
+  background: #000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: Tajawal;
+  font-size: 20px;
+  margin-top:12px;
+  margin-bottom:12px;
+}
+.Loginform .btn1:hover,.Loginform .btn1:active,.Loginform .btn1:focus {
+  background: coral;
+}
+.Loginform .LoginMessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.Loginform .LoginMessage a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.Loginform .register-form {
+  display: none;
+}
+.LoginBody {
+  background: gray; /* fallback for old browsers */
+  height:121%;
+}
+.LoginFormTitle{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+/* New Staff Form */
+
+#Room-form{
+	
+	float: right;
+	margin-right:100px;
+	
+}
+
+.Room-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  min-height: 100%;
+}
+.Roomform {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+    border-radius:50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.Roomform input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+    font-family: Tajawal;
+}
+.Roomform .btn1 {
+  text-transform: uppercase;
+  outline: 0;
+  background: #000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: Tajawal;
+  font-size: 20px;
+  margin-top:12px;
+  margin-bottom:12px;
+}
+.Roomform .btn1:hover,.Roomform .btn1:active,.Roomform .btn1:focus {
+  background: coral;
+}
+.Roomform .RoomMessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.Roomform .RoomMessage a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.Roomform .register-form {
+  display: none;
+}
+.RoomBody {
+  background: gray; /* fallback for old browsers */
+  height:auto;
+}
+.RoomFormTitle{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #f2f2f2;
+  font-size: 14px;
+  font-family: Tajawal;
+}
+
+
+/* New Room Form */
+
+
+#NewRoom-form{
+	
+	float: left;
+	margin-left:100px;
+	
+}
+.NewRoom-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  min-height: 100%;
+}
+.NewRoomform {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+    border-radius:50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.NewRoomform input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+    font-family: Tajawal;
+}
+.NewRoomform .btn1 {
+  text-transform: uppercase;
+  outline: 0;
+  background: #000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: Tajawal;
+  font-size: 20px;
+  margin-top:12px;
+  margin-bottom:12px;
+}
+.NewRoomform .btn1:hover,.NewRoomform .btn1:active,.NewRoomform .btn1:focus {
+  background: coral;
+}
+.NewRoomform .NewRoomMessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.NewRoomform .NewRoomMessage a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.NewRoomform .register-form {
+  display: none;
+}
+
+
+.NewRoomFormTitle{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #f2f2f2;
+  font-size: 14px;
+  font-family: Tajawal;
+}
+
+/* GUEST Form */
+#GUEST-form{
+	
+	float: right;
+	margin-right:100px;
+}
+	
+.GUEST-page {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+  min-height: 100%;
+}
+.GUESTform {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+    border-radius:50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.GUESTform input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Tajawal;
+}
+.GUESTform .btn1 {
+  text-transform: uppercase;
+  outline: 0;
+  background: #000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: Tajawal;
+  font-size: 20px;
+  margin-top:12px;
+  margin-bottom:12px;
+}
+.GUESTform .btn1:hover,.GUESTform .btn1:active,.GUESTform .btn1:focus {
+  background: coral;
+}
+.GUESTform .GUESTMessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.GUESTform .GUESTMessage a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.GUESTform .register-form {
+  display: none;
+}
+.GUESTBody {
+  background: gray; /* fallback for old browsers */
+  height:auto%;
+}
+.GUESTFormTitle{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+/* GUEST Form */
+#GUESTSearch-form{
+	
+	float: left;
+	margin-left:100px;
+}
+	
+.GUESTSearch-page {
+  width: 500px;
+  padding: 8% 0 0;
+  margin: auto;
+  min-height: 100%;
+}
+.GUESTSearchform {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 500px;
+  margin: 0 auto 10px;
+  padding: 45px;
+  text-align: center;
+    border-radius:50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.GUESTSearchform input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Tajawal;
+}
+.GUESTSearchform .btn1 {
+  text-transform: uppercase;
+  outline: 0;
+  background: #000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius:50px;
+  font-family: Tajawal;
+  font-size: 20px;
+  margin-top:12px;
+  margin-bottom:12px;
+}
+.GUESTSearchform .btn1:hover,.GUESTSearchform .btn1:active,.GUESTSearchform .btn1:focus {
+  background: coral;
+}
+.GUESTSearchform .GUESTSearchMessage {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.GUESTSearchform .GUESTSearchMessage a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.GUESTSearchform .register-form {
+  display: none;
+}
+.GUESTSearchBody {
+  background: gray; /* fallback for old browsers */
+  height:auto%;
+}
+.GUESTSearchFormTitle{
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+}
